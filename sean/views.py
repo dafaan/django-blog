@@ -19,3 +19,13 @@ def post(request, id):
     post = blogPost.objects.get(id=id)
     context = {'post':post}
     return render(request, 'post.html', context)
+
+
+def about(request):
+    
+    return render(request, 'about.html')
+
+
+def contact(request):
+    
+    return render(request, 'contact.html')
