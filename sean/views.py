@@ -9,12 +9,6 @@ def home(request):
     context = {'posts':posts}
     return render(request, 'index.html', context)
 
-
-def posts(request):
-    
-    return render(request, 'post.html')
-
-
 def post(request, id):
     post = blogPost.objects.get(id=id)
     context = {'post':post}
