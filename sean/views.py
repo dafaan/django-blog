@@ -23,3 +23,13 @@ def about(request):
 def contact(request):
     
     return render(request, 'contact.html')
+
+
+def search_db(request):
+    #if request.method == 'POST':
+    query = request.GET['query']
+    post = blogPost.objects.filter(title__search=query)
+    
+    print(post)
+    
+    return render(request, 'search.html')
