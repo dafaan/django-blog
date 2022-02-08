@@ -27,9 +27,10 @@ def contact(request):
 
 def search_db(request):
     #if request.method == 'POST':
-    query = request.GET['query']
-    post = blogPost.objects.filter(title__search=query)
+    query = request.GET.get('query', 1)
+    post = blogPost.objects.filter(title__icontains = query)
     
     print(post)
+    context = {'post':post}
     
-    return render(request, 'search.html')
+    return render(request, 'search.html', context)
