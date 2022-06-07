@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="row">
+    {% for i in image %}
+        <div class="col-md-2 col-sm-2 col-xs-2" style="margin-top:2px; border-radius:3%;">
+            <img class="thumbnail box-element w3-round-large" src="{{i.image.url}}" alt="test pic" style="height:250px;">
+        </div>
+    {% endfor %}
+</div>
+<div class="row">
+    
+</div>
+<br><br><br>
+{% endblock %}
