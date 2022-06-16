@@ -1,0 +1,64 @@
+.ban{
+    align-self: center;
+}
+
+.box-element{
+	box-shadow:hsl(0, 0%, 80%) 0 0 16px;
+	background-color: #fff;
+	border-radius: 4px;
+	padding: 0px;
+    box-sizing: border-box;
+}
+
+.thumbnail{
+	width: 100%;
+	height: 150px;
+    border-radius: 2%;
+	-webkit-box-shadow: -1px -3px 5px -2px rgba(214,214,214,1);
+    -moz-box-shadow: -1px -3px 5px -2px rgba(214,214,214,1);
+    box-shadow: -1px -3px 5px -2px rgba(214,214,214,1);
+}
+
+.lf{
+    font-size: 17px;
+}
+
+.center-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p{
+    padding-top: -30px;
+    font-size: 14px;
+}
+
+#banner{
+    border-radius: 20%;
+}
+
+a{
+    align-items: center;
+}
+.smallz{
+    color: darkred;
+}
+.head1{
+    text-align: center;
+    background-color: #00acee;
+    color: white;
+}
+
+.center{
+    text-align: center;
+}
+
+.post_pic{
+    width: 100%;
+}
+
+.product{
+	border-radius: 0 0 4px 4px;
+}
