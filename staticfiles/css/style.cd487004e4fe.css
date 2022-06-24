@@ -1,9 +1,9 @@
 
 .back:hover .anim{
-    transform: translate(10px);
+    transform: translate(100%);
 }
 .anim{
-    transition: transform 1s;
+    margin-left: -100%;
 }
 .ban{
     align-self: center;

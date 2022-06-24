@@ -3,7 +3,7 @@
     transform: translate(10px);
 }
 .anim{
-    transition: transform 1s;
+    transition: transform 3s;
 }
 .ban{
     align-self: center;

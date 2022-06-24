@@ -1,3 +1,10 @@
+
+.back:hover .anim{
+    transform: translate(10px);
+}
+.anim{
+    transition: transform 1s;
+}
 .ban{
     align-self: center;
 }
